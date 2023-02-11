@@ -1,0 +1,27 @@
+.settings__setting {
+    padding: 20px 0px;
+    border-bottom: var(--main-border);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: box-shadow 0.2s ease-in-out;
+    justify-content: space-between;
+}
+
+
+.settings__setting:hover {
+    box-shadow: var(--main-box-shadow);
+}
+
+
+.settings__setting i {
+    opacity: 0.8;
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+.icon-row__icon {
+    display: flex;
+    width:25%;
+    padding:15px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.icon-row__icon:hover {
+    box-shadow: var(--main-box-shadow);
+}
+
+.icon-row__icon i {
+    font-size: 35px;
+}
+
+.icon-row__image {
+    width: 100%;
+    height: 100%;
+}
+
+.icon-row__icon span {
+    margin-top: 18px;
+    text-align: center;
+}
