@@ -25,6 +25,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 .main-screen {
     padding: 0px var(--horizontal-space);
 }
