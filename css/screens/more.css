@@ -37,6 +37,23 @@
     border-radius: 10px;
     box-shadow: var(--main-box-shadow);
     margin-bottom: 10px;
+    transition: box-shadow 1s ease-in-out;
+}
+
+.more-suggestions__icon:first-child .more-suggestions__icon-image:hover {
+    box-shadow: 0 0 20px rgba(189, 198, 108, 1);
+}
+
+.more-suggestions__icon:nth-child(2) .more-suggestions__icon-image:hover {
+    box-shadow: 0 0 20px rgba(143, 108, 198, 1);
+}
+
+.more-suggestions__icon:nth-child(3) .more-suggestions__icon-image:hover {
+    box-shadow: 0 0 20px rgba(108, 178, 198, 1);
+}
+
+.more-suggestions__icon:last-child .more-suggestions__icon-image:hover {
+    box-shadow: 0 0 20px rgba(113, 198, 108, 1);
 }
 
 .more-suggestions__icon-text {
