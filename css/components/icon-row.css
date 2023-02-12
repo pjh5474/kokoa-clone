@@ -31,3 +31,15 @@
     margin-top: 18px;
     text-align: center;
 }
+
+.more-screen .icon-row {
+    background-color: aliceblue;
+}
+
+.more-screen .icon-row__icon {
+    border-radius: 20px;
+}
+
+.more-screen .icon-row__image {
+    border-radius: 15px;
+}
